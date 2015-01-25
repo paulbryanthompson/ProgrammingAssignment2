@@ -8,7 +8,7 @@ makeCacheMatrix <- function(x = matrix()) {
     x <<- y
     m <<- NULL
   }
-  
+    
   get <- function() x ## returns value of x
   setmatrix <- function(solve) m <<- solve ## sets inverse matrix using Solve
   getmatrix <- function() m ## returns matrix
